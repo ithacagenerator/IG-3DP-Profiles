@@ -1,0 +1,6 @@
+# fruit debris:
+**/.DS_Store
+
+# intellij debris:
+**/.idea
+**/*.pyc
