@@ -34,7 +34,7 @@ The goal of this repo is to aggregate slicer profiles, resources and hardware / 
 
 <h4 id="hardware"> </h4>  
 
-##### 3d Printer Hardware Available @ IG:
+## 3d Printer Hardware Available @ IG:
 
 
 <h4 id="railcore"> </h4>  
