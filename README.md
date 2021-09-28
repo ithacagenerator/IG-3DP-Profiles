@@ -2,8 +2,7 @@
 
 *Profiles, hardware and notes*
 
-|[![](https://avatars.githubusercontent.com/u/3699732?s=200&v=4)](https://ithacagenerator.org/)|[**Visit Ithaca Generator!**](https://ithacagenerator.org/)|
-|--|--|
+[![](https://avatars.githubusercontent.com/u/3699732?s=200&v=4)](https://ithacagenerator.org/)
 
 
 The goal of this repo is to aggregate slicer profiles, resources and hardware / firmware notes pertinent to 3d printing at the Ithaca Generator.  Pull requests are welcome and encouraged!  
