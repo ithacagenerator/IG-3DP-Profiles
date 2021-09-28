@@ -1,11 +1,10 @@
-# Ithaca Generator 3d Printers
 
 <table>
  <thead>
   <tr>
    <th><a href="https://github.com/Jesssullivan/IG-3DP-Profiles">Repository</a></th>
    <th><a href="https://jesssullivan.github.io/IG-3DP-Profiles/" rel="nofollow">Pages</a></th>
-  </tr> 
+  </tr>
  </thead>
 </table>
 
