@@ -1,4 +1,3 @@
-## Ithaca Generator 3d Printers
 
 <table>
  <thead>
