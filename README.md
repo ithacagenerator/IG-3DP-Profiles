@@ -52,7 +52,7 @@ While the RailCore can sort of be controlled from its  touchscreen, it is best t
 |Controller|[Duet 3d Ecosystem](https://www.duet3d.com/)|
 |Firmware|[RepRapFirmware](https://github.com/Duet3D/RepRapFirmware)|
 |Hotend|[E3D V6 Ecosystem](https://e3d-online.zendesk.com/hc/en-us/articles/360017139517-V6-Drawings)|
-|Usual Nozzle | .2|
+|Usual Nozzle | .4|
 |Extruder | Direct Drive, [Bondtech BMG](https://www.bondtech.se/product/bmg-extruder/))|
 |Filament Diameter| 1.75, run out sensor|
 |Surface Equipment|[PEI](https://reprap.org/wiki/PEI_build_surface), [BLTouch](https://all3dp.com/2/bltouch-sensors-guide/)|
