@@ -17,17 +17,15 @@
 
 The goal of this repo is to aggregate slicer profiles, resources and hardware / firmware notes pertinent to 3d printing at the Ithaca Generator.  Pull requests are welcome and encouraged!  
 
-
 - [**Hardware**](#hardware) <br>
   - [RailCore 300 ZL](#railcore) <br>
   - [Xinkebot *Jon Sanders Edition*](#xinkebot) <br>
   - [Prusa i3 MK2.5S](#prusa) <br>
   - [Ender 3 Fleet](#ender) <br>
-- **Slicer Links:** <br>
+- **Slicer Links** <br>
   - [PrusaSlicer](https://www.prusa3d.com/drivers/) (Linux AppImage, Mac, Windows) <br>
   - [PrusaSlicer Source](https://github.com/prusa3d/PrusaSlicer) <br>
   - [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura) (Linux AppImage, Mac, Windows) <br>
-
 
 - - -
 
