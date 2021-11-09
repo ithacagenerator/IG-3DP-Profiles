@@ -17,6 +17,9 @@
 
 The goal of this repo is to aggregate slicer profiles, resources and hardware / firmware notes pertinent to 3d printing at the Ithaca Generator.  Pull requests are welcome and encouraged!  
 
+All default IG PrusaSlicer printers & profiles found on the 3d printing laptop in the makerspace can be imported from the `./IG_config_bundle.ini` file.  
+
+
 - [**Hardware**](#hardware) <br>
   - [RailCore 300 ZL](#railcore) <br>
   - [Xinkebot *Jon Sanders Edition*](#xinkebot) <br>
