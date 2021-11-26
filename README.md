@@ -2,8 +2,8 @@
 <table>
  <thead>
   <tr>
-   <th><a href="https://github.com/Jesssullivan/IG-3DP-Profiles">Repository</a></th>
-   <th><a href="https://jesssullivan.github.io/IG-3DP-Profiles/" rel="nofollow">Pages</a></th>
+   <th><a href="https://github.com/ithacagenerator/IG-3DP-Profiles">Repository</a></th>
+   <th><a href="https://ithacagenerator.github.io/IG-3DP-Profiles/" rel="nofollow">Pages</a></th>
   </tr>
  </thead>
 </table>
@@ -20,11 +20,11 @@ The goal of this repo is to aggregate slicer profiles, resources and hardware / 
 
 - [**Hardware**](#hardware) <br>
   - [RailCore 300 ZL](#railcore) <br>
-    - [RailCore Usage](https://jesssullivan.github.io/IG-3DP-Profiles/railcore/) <br>
+    - [RailCore Usage](https://ithacagenerator.github.io/IG-3DP-Profiles/railcore/) <br>
   - [Xinkebot *Jon Sanders Edition*](#xinkebot) <br>
-    - [Xinkebot Usage](https://jesssullivan.github.io/IG-3DP-Profiles/xinkebot/)<br>
+    - [Xinkebot Usage](https://ithacagenerator.github.io/IG-3DP-Profiles/xinkebot/)<br>
   - [Prusa i3 MK2.5S](#prusa) <br>
-    - [Prusa Usage](https://jesssullivan.github.io/IG-3DP-Profiles/prusa/)<br>
+    - [Prusa Usage](https://ithacagenerator.github.io/IG-3DP-Profiles/prusa/)<br>
   - [Ender 3 Fleet](#ender) <br>
 - **Slicer Links** <br>
   - [PrusaSlicer](https://www.prusa3d.com/drivers/) (Linux AppImage, Mac, Windows) <br>
