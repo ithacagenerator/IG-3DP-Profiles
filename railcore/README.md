@@ -1,6 +1,6 @@
 ## *IG RailCore Usage*
 
-The RailCore is a CoreXY-style printer which is a very accurate and fast. It uses a Bondtech extruder with an E3D V6 hotend, and extremely precise Misumi linear rails to guide movement on every axis. Currently, the nozzle is a 0.4mm abrasion-resistant nozzle that can be used with all filaments. This is a more advanced printer than the Prusa or Xinkebot, but don't worry, it's actually fairly easy to operate. It runs using RepRap firmware on a Duet Ethernet board.
+The RailCore is a CoreXY-style printer which is a very accurate and fast. It uses a Bondtech Orbiter extruder with an LDO stepper with an E3D Revo hotend, and extremely precise Misumi linear rails to guide movement on every axis. Currently, the nozzle is a 0.25mm revo finger-swappable nozzle that can be used with all filaments. This is a more advanced printer than the Prusa or Xinkebot, but don't worry, it's actually fairly easy to operate. It runs using RepRap firmware on a Duet Ethernet board.
 
 Details about the using the Duet can be [found here](https://duet3d.dozuki.com/Wiki/Duet_Web_Control_Manual).
 
@@ -11,7 +11,7 @@ Most of this is extra background information. Homing and leveling are taken care
 1. Clean the bed with Windex and a paper towel. If there is filament stuck to the bed, peel it off with your fingernail. If it's stuck, use a plastic razor blade. DO NOT use a metal blade on the RailCore!
 2. Turn on the RailCore using the switch at the bottom rear of the electronics box on the right side of the printer.
 3. Watch the readout on the LED panel above the electronics box for the assigned IP address. If you forget it, you can always press the "console" button at the bottom of the screen. Note that you will get a warning about the heater being overpowered. It's OK to ignore that. It will go away.
-4. Using any computer on the IthacaGenerator g wireless, type the IP address in any browser such as Chrome or Firefox. You should see the "Duet Web Control" interface.
+4. Using any computer on the Ithaca Generator wifi, type the IP address in any browser such as Chrome or Firefox. You should see the "Duet Web Control" interface.
 
 *Load Your Filament:*
 

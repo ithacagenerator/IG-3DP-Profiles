@@ -1,6 +1,7 @@
 
 ## *IG Prusa Usage:*
 
+The IG Prusa is an original Prusa Research i3 modified with an E3D Revo Hotend and a spring steel flex build plate.  Currently it has a .4mm finger swappable Revo nozzle.
 
 - [A video](https://www.youtube.com/watch?v=JqH41K2vq0g)
 - [The manual](https://www.prusa3d.com/downloads/manual/prusa3d_manual_mk2_en.pdf)
