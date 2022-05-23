@@ -73,11 +73,11 @@ While the RailCore can sort of be controlled from its  touchscreen, it is best t
 |--|--|
 |Controller|[Duet 3d Ecosystem](https://www.duet3d.com/)|
 |Firmware|[RepRapFirmware](https://github.com/Duet3D/RepRapFirmware)|
-|Hotend|[E3D V6 Ecosystem](https://e3d-online.zendesk.com/hc/en-us/articles/360017139517-V6-Drawings)|
-|Usual Nozzle | .4|
+|Hotend|[E3D Revo Six Ecosystem](https://e3d-online.com/blogs/news/rapidchangerevo)|
+|Usual Nozzle | .25mm|
 |Extruder | Direct Drive, [Bondtech BMG](https://www.bondtech.se/product/bmg-extruder/))|
 |Filament Diameter| 1.75, run out sensor|
-|Surface Equipment|[PEI](https://reprap.org/wiki/PEI_build_surface), [BLTouch](https://all3dp.com/2/bltouch-sensors-guide/)|
+|Surface Equipment|G10 FR4 bonded to aluminum, [BLTouch](https://all3dp.com/2/bltouch-sensors-guide/)|
 |HID|Duet Web Interface|
 
 
@@ -104,7 +104,7 @@ While the Xinkebot can kinda be controlled from its  touchscreen, it is best to 
 |Usual Nozzle | .8|
 |Extruder |Quick release DB25, Direct Drive, [Bondtech BMG](https://www.bondtech.se/product/bmg-extruder/))|
 |Filament Diameter| 1.75, run out sensor|
-|Surface Equipment|[Borosilicate](https://reprap.org/wiki/PCB_Heatbed/Aluminium_Bed_Mount_Plate/Borosilicate_glass#Borosilicate_glass), [BLTouch](https://all3dp.com/2/bltouch-sensors-guide/)|
+|Surface Equipment|G10 FR4 bonded to aluminum, [BLTouch](https://all3dp.com/2/bltouch-sensors-guide/)|
 |HID|Duet Web Interface|
 
 
@@ -115,11 +115,11 @@ While the Xinkebot can kinda be controlled from its  touchscreen, it is best to 
 <h4 id="prusa"> </h4>  
 
 
-### Prusa i3 MK2.5S  
+### IG Prusa
 
 #### [*Read the IG Prusa Usage instructions here*](/prusa)
 
-This is a legit Josef Průša printer running the OEM Marlin [1.x fork, Prusa Firmware](https://github.com/prusa3d/Prusa-Firmware).  Interact with this printer via an SD card and the clicky button Marlin graphical display.
+This is a legit Josef Průša i3 MK2.5S printer running the OEM Marlin [1.x fork, Prusa Firmware](https://github.com/prusa3d/Prusa-Firmware).  IG's Prusa currently has an E3D Revo Six hotend and .4mm Revo nozzle.  Interact with this printer via an SD card and the clicky button Marlin graphical display.  
 
 
 <h4 id="prusa-overview"> </h4>  
@@ -129,8 +129,8 @@ This is a legit Josef Průša printer running the OEM Marlin [1.x fork, Prusa Fi
 |--|--|
 |Controller|[mini Rambo](https://reprap.org/wiki/MiniRambo)|
 |Firmware|[Prusa's Marlin 1.x fork](https://github.com/prusa3d/Prusa-Firmware)|
-|Hotend|Stock|
-|Usual Nozzle | .4|
+|Hotend|[E3D Revo Six Ecosystem](https://e3d-online.com/blogs/news/rapidchangerevo)|
+|Usual Nozzle | .4mm|
 |Extruder |Stock, Direct Drive|
 |Filament Diameter| 1.75|
 |Surface Equipment|[Spring Steel PEI](https://shop.prusa3d.com/en/accessories-mk3s-mk25s-mini/1013-mini-spring-steel-sheet-with-smooth-double-sided-pei.html), [SuperPINDA](https://shop.prusa3d.com/en/spare-parts/1396-superpinda.html)|
