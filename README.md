@@ -75,7 +75,7 @@ While the RailCore can sort of be controlled from its  touchscreen, it is best t
 |Firmware|[RepRapFirmware](https://github.com/Duet3D/RepRapFirmware)|
 |Hotend|[E3D Revo Six Ecosystem](https://e3d-online.com/blogs/news/rapidchangerevo)|
 |Usual Nozzle | .25mm|
-|Extruder | Direct Drive, [Bondtech LGX]([https://www.bondtech.se/product/bmg-extruder/](https://www.bondtech.se/product/lgx-lite-extruder-custom/), [36STH20-1004AHG 36mm NEMA 14 Stepper](https://www.printedsolid.com/collections/ldo-motors/products/ldo-nema14-36mm-round-pancake-motor-ldo-36sth20-1004ahgxh)|
+|Extruder | Direct Drive, [Bondtech LGX](https://www.bondtech.se/product/lgx-lite-extruder-custom/), [36STH20-1004AHG 36mm NEMA 14 Stepper](https://www.printedsolid.com/collections/ldo-motors/products/ldo-nema14-36mm-round-pancake-motor-ldo-36sth20-1004ahgxh)|
 |Filament Diameter| 1.75, run out sensor|
 |Surface Equipment|G10 FR4 bonded to aluminum, [BLTouch](https://all3dp.com/2/bltouch-sensors-guide/)|
 |HID|Duet Web Interface|
