@@ -19,13 +19,13 @@ The goal of this repo is to aggregate slicer profiles, resources and hardware / 
 
 
 - [**Hardware**](#hardware) <br>
-  - [RailCore 300 ZL](#railcore) <br>
+  - [IG RailCore 300 ZL](#railcore) <br>
     - [RailCore Usage](https://ithacagenerator.github.io/IG-3DP-Profiles/railcore/) <br>
-  - [Xinkebot *Jon Sanders Edition*](#xinkebot) <br>
+  - [IG Xinkebot *Jon Sanders Edition*](#xinkebot) <br>
     - [Xinkebot Usage](https://ithacagenerator.github.io/IG-3DP-Profiles/xinkebot/)<br>
-  - [Prusa i3 MK2.5S](#prusa) <br>
+  - [IG Prusa i3 MK2.5S](#prusa) <br>
     - [Prusa Usage](https://ithacagenerator.github.io/IG-3DP-Profiles/prusa/)<br>
-  - [Ender 3 Fleet](#ender) <br>
+  - [IG Ender 3 Fleet](#ender) <br>
 - **Slicer Links** <br>
   - [PrusaSlicer](https://www.prusa3d.com/drivers/) (Linux AppImage, Mac, Windows) <br>
   - [PrusaSlicer Source](https://github.com/prusa3d/PrusaSlicer) <br>
@@ -61,7 +61,7 @@ All default IG PrusaSlicer printers & profiles found on the 3d printing laptop i
 <h4 id="railcore"> </h4>  
 
 
-### RailCore
+### RailCore 
 
 #### [*Read the IG RailCore Usage instructions here*](/railcore)
 
@@ -75,7 +75,7 @@ While the RailCore can sort of be controlled from its  touchscreen, it is best t
 |Firmware|[RepRapFirmware](https://github.com/Duet3D/RepRapFirmware)|
 |Hotend|[E3D Revo Six Ecosystem](https://e3d-online.com/blogs/news/rapidchangerevo)|
 |Usual Nozzle | .25mm|
-|Extruder | Direct Drive, [Bondtech BMG](https://www.bondtech.se/product/bmg-extruder/))|
+|Extruder | Direct Drive, [Bondtech LGX](https://www.bondtech.se/product/lgx-lite-extruder-custom/), [36STH20-1004AHG 36mm NEMA 14 Stepper](https://www.printedsolid.com/collections/ldo-motors/products/ldo-nema14-36mm-round-pancake-motor-ldo-36sth20-1004ahgxh)|
 |Filament Diameter| 1.75, run out sensor|
 |Surface Equipment|G10 FR4 bonded to aluminum, [BLTouch](https://all3dp.com/2/bltouch-sensors-guide/)|
 |HID|Duet Web Interface|
@@ -119,7 +119,7 @@ While the Xinkebot can kinda be controlled from its  touchscreen, it is best to 
 
 #### [*Read the IG Prusa Usage instructions here*](/prusa)
 
-This is a legit Josef Průša i3 MK2.5S printer running the OEM Marlin [1.x fork, Prusa Firmware](https://github.com/prusa3d/Prusa-Firmware).  IG's Prusa currently has an E3D Revo Six hotend and .4mm Revo nozzle.  Interact with this printer via an SD card and the clicky button Marlin graphical display.  
+This is a tasteully modified Josef Průša i3 MK2.5S printer running the OEM Marlin [1.x fork, Prusa Firmware](https://github.com/prusa3d/Prusa-Firmware).  IG's Prusa currently has an E3D Revo Six hotend and .4mm Revo nozzle.  Interact with this printer via an SD card and the clicky button Marlin graphical display.  
 
 
 <h4 id="prusa-overview"> </h4>  
@@ -131,7 +131,7 @@ This is a legit Josef Průša i3 MK2.5S printer running the OEM Marlin [1.x fork
 |Firmware|[Prusa's Marlin 1.x fork](https://github.com/prusa3d/Prusa-Firmware)|
 |Hotend|[E3D Revo Six Ecosystem](https://e3d-online.com/blogs/news/rapidchangerevo)|
 |Usual Nozzle | .4mm|
-|Extruder |Stock, Direct Drive|
+|Extruder |Mostly Stock NEMA 17 Direct Drive|
 |Filament Diameter| 1.75|
 |Surface Equipment|[Spring Steel PEI](https://shop.prusa3d.com/en/accessories-mk3s-mk25s-mini/1013-mini-spring-steel-sheet-with-smooth-double-sided-pei.html), [SuperPINDA](https://shop.prusa3d.com/en/spare-parts/1396-superpinda.html)|
 |HID|Marlin Graphical Interface|
@@ -145,12 +145,14 @@ This is a legit Josef Průša i3 MK2.5S printer running the OEM Marlin [1.x fork
 
 #### Creality Ender 3 Fleet
 
-Ithaca Generator has a fleet of three [Creality Ender 3](https://www.creality3dofficial.com/products/official-creality-ender-3-3d-printer) printers.  These are easy to use and thoughtfully maintained machines used for teaching, training and can be rented out for extended use.  These Enders run the original Creality Marlin fork.  Interact with these  printers via a Micro SD card and the clicky button Marlin graphical display.
+Ithaca Generator has a fleet of three fairly modified [Creality Ender 3](https://www.creality3dofficial.com/products/official-creality-ender-3-3d-printer) printers.  These are easy to use and thoughtfully maintained machines used for teaching, training and can be rented out for extended use.  These Enders run the original Creality Marlin fork.  Interact with these  printers via a Micro SD card and the clicky button Marlin graphical display.
 
 
 |**Ender 3**| [Website](https://www.creality3dofficial.com/products/official-creality-ender-3-3d-printer) |
 |--|--|
+|Hotend|stock|
 |Usual Nozzle | .4|
-|Extruder |Bowden|
+|Extruder |bowden (dual gear, all aluminum, shortend PTFE path)|
 |Filament Diameter| 1.75|
+|Surface Equipment|G10 FR4 bonded to aluminum|
 |HID|Marlin Graphical Interface|
