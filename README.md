@@ -19,11 +19,9 @@ The goal of this repo is to aggregate slicer profiles, resources and hardware / 
 
 
 - [**Hardware**](#hardware) <br>
-  - [IG RailCore 300 ZL](#railcore) <br>
+  - [IG RailCore](#railcore) <br>
     - [RailCore Usage](https://ithacagenerator.github.io/IG-3DP-Profiles/railcore/) <br>
-  - [IG Xinkebot *Jon Sanders Edition*](#xinkebot) <br>
-    - [Xinkebot Usage](https://ithacagenerator.github.io/IG-3DP-Profiles/xinkebot/)<br>
-  - [IG Prusa i3 MK2.5S](#prusa) <br>
+  - [IG Prusa](#prusa) <br>
     - [Prusa Usage](https://ithacagenerator.github.io/IG-3DP-Profiles/prusa/)<br>
   - [IG Ender 3 Fleet](#ender) <br>
 - **Slicer Links** <br>
@@ -44,9 +42,6 @@ All default IG PrusaSlicer printers & profiles found on the 3d printing laptop i
 ├── railcore
 │   ├── <User>/
 │   └── README.md  # IG RailCore usage instructions  
-└── xinkebot
-│   ├── <User>/
-│   └── README.md  # IG Xinkebot usage instructions
 └── IG_config_bundle.ini # misc. default profiles
 ```
 
@@ -61,15 +56,13 @@ All default IG PrusaSlicer printers & profiles found on the 3d printing laptop i
 <h4 id="railcore"> </h4>  
 
 
-### RailCore 
+### RailCore
 
-#### [*Read the IG RailCore Usage instructions here*](/railcore)
+#### [*Read the IG RailCore usage instructions here*](/railcore)
 
-While the RailCore can sort of be controlled from its  touchscreen, it is best to interact with the Railcore from the duet web interface.  You may connect to the printer using its mDNS name `railcore.local` or its locally assigned ip address.
+While the RailCore can sort of be controlled from its  touchscreen, it is best to interact with the Railcore from the duet web interface.  You may attempt to connect to the printer using its mDNS name `railcore.local` or its locally assigned ip address.
 
-
-
-|**RailCore II 300 ZL**|[*Project Website*](https://railcore.org/)|
+|**RailCore II**|[*Project Website*](https://railcore.org/)|
 |--|--|
 |Controller|[Duet 3d Ecosystem](https://www.duet3d.com/)|
 |Firmware|[RepRapFirmware](https://github.com/Duet3D/RepRapFirmware)|
@@ -90,10 +83,7 @@ While the RailCore can sort of be controlled from its  touchscreen, it is best t
 
 ### Xinkebot *Jon Sanders Edition*
 
-#### [*Read the IG Xinkebot Usage instructions here*](/xinkebot)
-
-While the Xinkebot can kinda be controlled from its  touchscreen, it is best to interact with the Xinkebot from the duet web interface.  You may connect to the printer using its mDNS name `xinkebot.local` or its locally assigned ip address.
-
+#### *Jon Sander's RepRapFirmware Xinkebot is waiting for its next adventure!  It is currently offline.*
 
 
 |**Xinkebot**| *Jon Sanders Edition* |
@@ -119,7 +109,7 @@ While the Xinkebot can kinda be controlled from its  touchscreen, it is best to 
 
 #### [*Read the IG Prusa Usage instructions here*](/prusa)
 
-This is a tasteully modified Josef Průša i3 MK2.5S printer running the OEM Marlin [1.x fork, Prusa Firmware](https://github.com/prusa3d/Prusa-Firmware).  IG's Prusa currently has an E3D Revo Six hotend and .4mm Revo nozzle.  Interact with this printer via an SD card and the clicky button Marlin graphical display.  
+This is a heavily modified Josef Průša printer that started life as an i3 MK2.5S.  It currently uses an [Einsy Rambo](https://reprap.org/wiki/EinsyRambo_development) [v1.2](https://ultimachine.com/products/einsy-rambo-1-2?variant=32554065756269) motherboard running [Prusa MK3 Firmware](https://github.com/prusa3d/Prusa-Firmware).  IG's Prusa currently has an E3D Revo Six hotend and .4mm Revo nozzle.  Interact with this printer via an SD card and the clicky button Marlin graphical display.  
 
 
 <h4 id="prusa-overview"> </h4>  
@@ -127,8 +117,8 @@ This is a tasteully modified Josef Průša i3 MK2.5S printer running the OEM Mar
 
 |**Prusa i3**|  |
 |--|--|
-|Controller|[mini Rambo](https://reprap.org/wiki/MiniRambo)|
-|Firmware|[Prusa's Marlin 1.x fork](https://github.com/prusa3d/Prusa-Firmware)|
+|Controller|[Einsy Rambo 1.2](https://reprap.org/wiki/MiniRambo)|
+|Firmware|[Prusa Firmware 3_10_0_4481](https://github.com/prusa3d/Prusa-Firmware)|
 |Hotend|[E3D Revo Six Ecosystem](https://e3d-online.com/blogs/news/rapidchangerevo)|
 |Usual Nozzle | .4mm|
 |Extruder |Mostly Stock NEMA 17 Direct Drive|
@@ -145,7 +135,7 @@ This is a tasteully modified Josef Průša i3 MK2.5S printer running the OEM Mar
 
 #### Creality Ender 3 Fleet
 
-Ithaca Generator has a fleet of three fairly modified [Creality Ender 3](https://www.creality3dofficial.com/products/official-creality-ender-3-3d-printer) printers.  These are easy to use and thoughtfully maintained machines used for teaching, training and can be rented out for extended use.  These Enders run the original Creality Marlin fork.  Interact with these  printers via a Micro SD card and the clicky button Marlin graphical display.
+Ithaca Generator has a fleet of three fairly modified [Creality Ender 3](https://www.creality3dofficial.com/products/official-creality-ender-3-3d-printer) printers.  These are easy to use and thoughtfully maintained machines used for teaching, training and can be rented out for extended use.  Most of our Enders run the original Creality Marlin fork.  Interact with these printers via a Micro SD card and the clicky button Marlin graphical display.
 
 
 |**Ender 3**| [Website](https://www.creality3dofficial.com/products/official-creality-ender-3-3d-printer) |
