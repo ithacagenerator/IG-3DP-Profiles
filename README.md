@@ -60,43 +60,18 @@ All default IG PrusaSlicer printers & profiles found on the 3d printing laptop i
 
 #### [*Read the IG RailCore usage instructions here*](/railcore)
 
-While the RailCore can sort of be controlled from its  touchscreen, it is best to interact with the Railcore from the duet web interface.  You may attempt to connect to the printer using its mDNS name `railcore.local` or its locally assigned ip address.
+While the RailCore can sort of be controlled from its  touchscreen, it is best to interact with the Railcore from the duet web interface.  You may connect to the printer at it's locally assigned ip address (use `M552` on the touchsceen to view it's address).  
 
 |**RailCore II**|[*Project Website*](https://railcore.org/)|
 |--|--|
 |Controller|[Duet 3d Ecosystem](https://www.duet3d.com/)|
 |Firmware|[RepRapFirmware](https://github.com/Duet3D/RepRapFirmware)|
-|Hotend|[E3D Revo Six Ecosystem](https://e3d-online.com/blogs/news/rapidchangerevo)|
+|Hotend|[E3D Revo Mini](https://e3d-online.com/blogs/news/rapidchangerevo)|
 |Usual Nozzle | .25mm|
 |Extruder | Direct Drive, [Bondtech LGX](https://www.bondtech.se/product/lgx-lite-extruder-custom/), [36STH20-1004AHG 36mm NEMA 14 Stepper](https://www.printedsolid.com/collections/ldo-motors/products/ldo-nema14-36mm-round-pancake-motor-ldo-36sth20-1004ahgxh)|
 |Filament Diameter| 1.75, run out sensor|
 |Surface Equipment|G10 FR4 bonded to aluminum, [BLTouch](https://all3dp.com/2/bltouch-sensors-guide/)|
 |HID|Duet Web Interface|
-
-
-
-- - -
-
-
-<h4 id="xinkebot"> </h4>  
-
-
-### Xinkebot *Jon Sanders Edition*
-
-#### *Jon Sander's RepRapFirmware Xinkebot is waiting for its next adventure!  It is currently offline.*
-
-
-|**Xinkebot**| *Jon Sanders Edition* |
-|--|--|
-|Controller|[Duet 3d Ecosystem](https://www.duet3d.com/)|
-|Firmware|[RepRapFirmware](https://github.com/Duet3D/RepRapFirmware)|
-|Hotend|[E3D Volcano Ecosystem](https://e3d-online.zendesk.com/hc/en-us/articles/360017243818-Volcano-Drawings)|
-|Usual Nozzle | .8|
-|Extruder |Quick release DB25, Direct Drive, [Bondtech BMG](https://www.bondtech.se/product/bmg-extruder/))|
-|Filament Diameter| 1.75, run out sensor|
-|Surface Equipment|G10 FR4 bonded to aluminum, [BLTouch](https://all3dp.com/2/bltouch-sensors-guide/)|
-|HID|Duet Web Interface|
-
 
 
 - - -
@@ -123,7 +98,7 @@ This is a heavily modified Josef Průša printer that started life as an i3 MK2.
 |Usual Nozzle | .4mm|
 |Extruder |Mostly Stock NEMA 17 Direct Drive|
 |Filament Diameter| 1.75|
-|Surface Equipment|[Spring Steel PEI](https://shop.prusa3d.com/en/accessories-mk3s-mk25s-mini/1013-mini-spring-steel-sheet-with-smooth-double-sided-pei.html), [SuperPINDA](https://shop.prusa3d.com/en/spare-parts/1396-superpinda.html)|
+|Surface Equipment|[Spring Steel PEI](https://shop.prusa3d.com/en/accessories-mk3s-mk25s-mini/1013-mini-spring-steel-sheet-with-smooth-double-sided-pei.html), [Latest SuperPINDA](https://shop.prusa3d.com/en/spare-parts/1396-superpinda.html)|
 |HID|Marlin Graphical Interface|
 
 
@@ -146,3 +121,28 @@ Ithaca Generator has a fleet of three fairly modified [Creality Ender 3](https:/
 |Filament Diameter| 1.75|
 |Surface Equipment|G10 FR4 bonded to aluminum|
 |HID|Marlin Graphical Interface|
+
+
+
+- - -
+
+
+<h4 id="xinkebot"> </h4>  
+
+
+### Xinkebot *Jon Sanders Edition*
+
+#### *Jon Sander's RepRapFirmware Xinkebot is waiting for its next adventure!  It is currently offline.*
+
+
+|**Xinkebot**| *Jon Sanders Edition* |
+|--|--|
+|Controller|[Duet 3d Ecosystem](https://www.duet3d.com/)|
+|Firmware|[RepRapFirmware](https://github.com/Duet3D/RepRapFirmware)|
+|Hotend|[E3D Volcano Ecosystem](https://e3d-online.zendesk.com/hc/en-us/articles/360017243818-Volcano-Drawings)|
+|Usual Nozzle | .8|
+|Extruder |Quick release DB25, Direct Drive, [Bondtech BMG](https://www.bondtech.se/product/bmg-extruder/))|
+|Filament Diameter| 1.75, run out sensor|
+|Surface Equipment|G10 FR4 bonded to aluminum, [BLTouch](https://all3dp.com/2/bltouch-sensors-guide/)|
+|HID|Duet Web Interface|
+
