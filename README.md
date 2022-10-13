@@ -60,7 +60,7 @@ All default IG PrusaSlicer printers & profiles found on the 3d printing laptop i
 
 #### [*Read the IG RailCore usage instructions here*](/railcore)
 
-While the RailCore can sort of be controlled from its  touchscreen, it is best to interact with the Railcore from the duet web interface.  You may connect to the printer at it's locally assigned ip address (use `M552` on the touchsceen to view it's address).  
+While the RailCore can sort of be controlled from its  touchscreen, it is best to interact with the Railcore from the duet web interface.  You may connect to the printer at its locally assigned ip address (use `M552` on the touchsceen to view it's address).  
 
 |**RailCore II**|[*Project Website*](https://railcore.org/)|
 |--|--|
