@@ -67,7 +67,7 @@ While the RailCore can sort of be controlled from its  touchscreen, it is best t
 |Controller|[Duet 3d Ecosystem](https://www.duet3d.com/)|
 |Firmware|[RepRapFirmware](https://github.com/Duet3D/RepRapFirmware)|
 |Hotend|[E3D Revo Mini](https://e3d-online.com/blogs/news/rapidchangerevo)|
-|Usual Nozzle | .25mm|
+|Usual Nozzle | .25mm or .4mm|
 |Extruder | Direct Drive, [Bondtech LGX](https://www.bondtech.se/product/lgx-lite-extruder-custom/), [36STH20-1004AHG 36mm NEMA 14 Stepper](https://www.printedsolid.com/collections/ldo-motors/products/ldo-nema14-36mm-round-pancake-motor-ldo-36sth20-1004ahgxh)|
 |Filament Diameter| 1.75, run out sensor|
 |Surface Equipment|G10 FR4 bonded to aluminum, [BLTouch](https://all3dp.com/2/bltouch-sensors-guide/)|
@@ -84,7 +84,7 @@ While the RailCore can sort of be controlled from its  touchscreen, it is best t
 
 #### [*Read the IG Prusa Usage instructions here*](/prusa)
 
-This is a heavily modified Josef Průša printer that started life as an i3 MK2.5S.  It currently uses an [Einsy Rambo](https://reprap.org/wiki/EinsyRambo_development) [v1.2](https://ultimachine.com/products/einsy-rambo-1-2?variant=32554065756269) motherboard running [Prusa MK3 Firmware](https://github.com/prusa3d/Prusa-Firmware).  IG's Prusa currently has an E3D Revo Six hotend and .4mm Revo nozzle.  Interact with this printer via an SD card and the clicky button Marlin graphical display.  
+This is a heavily modified Josef Průša printer that started life as an i3 MK2.5S.  It currently uses an [Einsy Rambo](https://reprap.org/wiki/EinsyRambo_development) [v1.2](https://ultimachine.com/products/einsy-rambo-1-2?variant=32554065756269) motherboard running [Prusa MK3S Firmware](https://github.com/prusa3d/Prusa-Firmware).  IG's Prusa currently has an E3D Revo Six hotend and .4mm Revo nozzle.  Interact with this printer via an SD card and the clicky button Marlin graphical display.  
 
 
 <h4 id="prusa-overview"> </h4>  
@@ -93,7 +93,7 @@ This is a heavily modified Josef Průša printer that started life as an i3 MK2.
 |**Prusa i3**|  |
 |--|--|
 |Controller|[Einsy Rambo 1.2](https://reprap.org/wiki/MiniRambo)|
-|Firmware|[Prusa Firmware 3_10_0_4481](https://github.com/prusa3d/Prusa-Firmware)|
+|Firmware|[Prusa Firmware 3.11 MK3S](https://github.com/prusa3d/Prusa-Firmware)|
 |Hotend|[E3D Revo Six Ecosystem](https://e3d-online.com/blogs/news/rapidchangerevo)|
 |Usual Nozzle | .4mm|
 |Extruder |Mostly Stock NEMA 17 Direct Drive|
